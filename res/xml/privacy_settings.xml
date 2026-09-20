@@ -33,6 +33,11 @@
             android:title="@string/privacy_hide_screen_capture_title"
             android:summary="@string/privacy_hide_screen_capture_summary"
             android:defaultValue="false" />
+        <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
+            android:key="no_storage_restrict"
+            android:title="@string/privacy_no_storage_restrict_title"
+            android:summary="@string/privacy_no_storage_restrict_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
