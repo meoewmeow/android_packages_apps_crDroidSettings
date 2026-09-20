@@ -1751,4 +1751,12 @@ A small donation helps keep this project alive and improving. You can dismiss th
         <item quantity="other">Added %d apps to targets</item>
     </plurals>
 
+    <!-- Privacy / compatibility features.
+         Donors: Evolution X Evolver@bka (window_ignore_secure, hide_screen_capture_status,
+         no_storage_restrict) and Infinity X InfinitySuite@16 (hide_developer_status,
+         hide_applist). -->
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_category_system">System-wide</string>
+    <string name="privacy_ignore_secure_title">Ignore secure window flags</string>
+    <string name="privacy_ignore_secure_summary">Remove screenshot and screen recording restrictions for all apps. May expose private content</string>
 </resources>
