@@ -1764,6 +1764,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="privacy_hide_screen_capture_summary">Hide screen capture and record status from apps. May risk privacy. Restart apps to apply.</string>
     <string name="hide_developer_status_title">Hide developer status</string>
     <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
     <string name="privacy_picker_selected_count">%d apps selected</string>
     <string name="app_picker_empty_title">No apps selected</string>
     <string name="app_picker_empty_description">No apps match your search or configuration</string>
