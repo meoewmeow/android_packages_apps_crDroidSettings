@@ -942,12 +942,14 @@
         <item>@string/pulse_color_lavalamp</item>
         <item>@string/pulse_color_album</item>
         <item>@string/pulse_color_accent</item>
+        <item>@string/custom_color</item>
     </string-array>
 
     <string-array name="pulse_color_values" translatable="false">
         <item>lavalamp</item>
         <item>album</item>
         <item>accent</item>
+        <item>custom</item>
     </string-array>
 
     <string-array name="pulse_renderer_entries" translatable="false">
@@ -1192,12 +1194,14 @@
     <string-array name="qs_show_volume_slider_entries">
         <item>@string/qs_show_volume_slider_hide</item>
         <item>@string/qs_show_volume_slider_both</item>
+        <item>@string/qs_show_volume_slider_below</item>
         <item>@string/qs_show_volume_slider_only</item>
     </string-array>
  
     <string-array name="qs_show_volume_slider_values" translatable="false">
         <item>0</item>
         <item>1</item>
+        <item>3</item>
         <item>2</item>
     </string-array>
 
