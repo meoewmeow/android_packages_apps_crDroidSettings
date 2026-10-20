@@ -1771,13 +1771,4 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="privacy_picker_selected_count">%d apps selected</string>
     <string name="app_picker_empty_title">No apps selected</string>
     <string name="app_picker_empty_description">No apps match your search or configuration</string>
-    <!-- Rime lock screen -->
-    <string name="rime_lockscreen_enabled_title">Rime lock screen</string>
-    <string name="rime_lockscreen_enabled_summary">Notification stack, presets and the glass clock</string>
-    <string name="rime_lockscreen_customize_title">Customize lock screen</string>
-    <string name="rime_lockscreen_customize_summary">Presets, wallpaper, clock and calibration</string>
-    <string name="rime_native_notifications_title">Native notifications</string>
-    <string name="rime_aod_clock_title">Rime clock on always-on display</string>
-    <string name="rime_aod_clock_summary">Your lock screen clock and date, dimmed. Off shows the system clock</string>
-    <string name="rime_native_notifications_summary">Android\'s own notifications in a stack, with replies and actions. Off uses Rime\'s notification cards</string>
 </resources>
