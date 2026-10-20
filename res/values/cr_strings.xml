@@ -1757,14 +1757,8 @@ A small donation helps keep this project alive and improving. You can dismiss th
          hide_applist). -->
     <string name="privacy_title">Privacy</string>
     <string name="privacy_category_system">System-wide</string>
-    <string name="privacy_category_per_app">Per-app</string>
     <string name="privacy_ignore_secure_title">Ignore secure window flags</string>
     <string name="privacy_ignore_secure_summary">Remove screenshot and screen recording restrictions for all apps. May expose private content</string>
     <string name="privacy_hide_screen_capture_title">Hide screen capture status</string>
     <string name="privacy_hide_screen_capture_summary">Hide screen capture and record status from apps. May risk privacy. Restart apps to apply.</string>
-    <string name="hide_developer_status_title">Hide developer status</string>
-    <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
-    <string name="privacy_picker_selected_count">%d apps selected</string>
-    <string name="app_picker_empty_title">No apps selected</string>
-    <string name="app_picker_empty_description">No apps match your search or configuration</string>
 </resources>

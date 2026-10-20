@@ -35,14 +35,4 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="privacy_per_app_category"
-        android:title="@string/privacy_category_per_app">
-        <Preference
-            android:key="hide_developer_status_settings"
-            android:title="@string/hide_developer_status_title"
-            android:summary="@string/hide_developer_status_summary"
-            android:fragment="com.crdroid.settings.fragments.misc.HideDeveloperStatusSettings" />
-    </PreferenceCategory>
-
 </PreferenceScreen>
