@@ -105,11 +105,6 @@ class HideDeveloperStatusSettings : SecureAppPickerFragment() {
     override fun headerTitleRes() = R.string.hide_developer_status_title
 }
 
-class HideAppListSettings : SecureAppPickerFragment() {
-    override fun storageKey() = Settings.Secure.HIDE_APPLIST
-    override fun headerTitleRes() = R.string.hide_applist_title
-}
-
 private val EXCLUDED_SUFFIXES = listOf(
     ".auto_generated", ".appsearch", ".backup", ".carrier",
     ".cellbroadcast", ".cts", ".federated", ".ims", ".overlay",
