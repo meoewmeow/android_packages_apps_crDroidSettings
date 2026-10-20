@@ -28,11 +28,6 @@
             android:title="@string/privacy_ignore_secure_title"
             android:summary="@string/privacy_ignore_secure_summary"
             android:defaultValue="false" />
-        <com.crdroid.settings.preferences.GlobalSettingSwitchPreference
-            android:key="hide_screen_capture_status"
-            android:title="@string/privacy_hide_screen_capture_title"
-            android:summary="@string/privacy_hide_screen_capture_summary"
-            android:defaultValue="false" />
     </PreferenceCategory>
 
 </PreferenceScreen>
