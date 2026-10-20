@@ -30,6 +30,41 @@
             android:title="@string/lockscreen_custom_clock_style_title"
             android:summary="@string/lockscreen_custom_clock_style_summary"
             android:fragment="com.crdroid.settings.fragments.lockscreen.CustomClockPreview" />
+
+        <!-- Rime lock screen: the switch is also the recovery path if it misbehaves -->
+        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+            android:key="rime_lockscreen_enabled"
+            android:icon="@drawable/ic_settings_lockscreens"
+            android:title="@string/rime_lockscreen_enabled_title"
+            android:summary="@string/rime_lockscreen_enabled_summary"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="rime_lockscreen_customize"
+            android:icon="@drawable/ic_wallpaper"
+            android:title="@string/rime_lockscreen_customize_title"
+            android:summary="@string/rime_lockscreen_customize_summary"
+            android:dependency="rime_lockscreen_enabled">
+            <intent
+                android:targetPackage="com.android.axion.themepicker"
+                android:targetClass="com.android.axion.themepicker.ui.rime.RimeCustomizationActivity" />
+        </Preference>
+
+        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+            android:key="rime_native_notifications"
+            android:icon="@drawable/ic_notifications"
+            android:title="@string/rime_native_notifications_title"
+            android:summary="@string/rime_native_notifications_summary"
+            android:dependency="rime_lockscreen_enabled"
+            android:defaultValue="true" />
+
+        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+            android:key="rime_aod_clock"
+            android:icon="@drawable/ic_font"
+            android:title="@string/rime_aod_clock_title"
+            android:summary="@string/rime_aod_clock_summary"
+            android:dependency="rime_lockscreen_enabled"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
