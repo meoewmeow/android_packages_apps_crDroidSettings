@@ -1762,8 +1762,6 @@ A small donation helps keep this project alive and improving. You can dismiss th
     <string name="privacy_ignore_secure_summary">Remove screenshot and screen recording restrictions for all apps. May expose private content</string>
     <string name="privacy_hide_screen_capture_title">Hide screen capture status</string>
     <string name="privacy_hide_screen_capture_summary">Hide screen capture and record status from apps. May risk privacy. Restart apps to apply.</string>
-    <string name="privacy_no_storage_restrict_title">No storage restrict</string>
-    <string name="privacy_no_storage_restrict_summary">Remove the folder selection restriction in Storage Access Framework. May be convenient in some cases but could lead to privacy leaks.</string>
     <string name="hide_developer_status_title">Hide developer status</string>
     <string name="hide_developer_status_summary">Prevent apps from checking adb and developer mode status</string>
     <string name="hide_applist_title">Hide applist</string>
