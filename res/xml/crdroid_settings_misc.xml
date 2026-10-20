@@ -18,21 +18,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- Play Integrity Fix -->
-    <Preference
-        android:key="play_integrity_fix"
-        android:icon="@drawable/ic_fingerprint"
-        android:title="@string/play_integrity_fix_title"
-        android:summary="@string/play_integrity_fix_summary"
-        android:fragment="com.crdroid.settings.fragments.misc.PlayIntegrityFix" />
-
-    <!-- TrickyStore -->
-    <Preference
-        android:key="tricky_store"
-        android:icon="@drawable/ic_vpn_key"
-        android:title="@string/tricky_store_title"
-        android:summary="@string/tricky_store_summary"
-        android:fragment="com.crdroid.settings.fragments.misc.TrickyStore" />
+    <!-- Play Integrity Fix and TrickyStore: replaced by the meoewmeow screens in
+         Silly settings, which drive this ROM's EvoX-based backend. -->
 
     <!-- Game Spoofing -->
     <Preference
